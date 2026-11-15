@@ -210,6 +210,21 @@ tempCodeRunnerFile.py
 
 # PyPI configuration file
 .pypirc
+# secrets
+.env
+*.env
+
+# data and models (these live in Hopsworks, not git)
+data/raw/
+*.pkl
+*.h5
+*.keras
+*.pt
+
+# misc
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
 
 # Marimo
 marimo/_static/
